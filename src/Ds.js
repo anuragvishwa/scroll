@@ -15,7 +15,7 @@ const button = {
 
 export const Ds = function Fab() {
   return (
-    <a style={button} href="https://competent-meitner-09679a.netlify.com/">
+    <a style={button} href="https://dsimages.tech">
       Data Science
     </a>
   )

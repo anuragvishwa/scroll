@@ -7,7 +7,8 @@ body {
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto,
+    segoe ui, arial, sans-serif;
   background: transparent;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
@@ -55,7 +56,7 @@ body::after {
 }
 
 #root > div::after {
-  content: 'Happy Birthday';
+  content: 'Very Happy Birthday Poli';
   position: absolute;
   left: 40px;
   top: 40px;
@@ -65,7 +66,7 @@ body::after {
 }
 
 #root > div::before {
-  content: 'XYZ CORP LTD';
+  content: 'The ultimate Superstar';
   position: absolute;
   left: 40px;
   top: 60px;
@@ -76,15 +77,18 @@ body::after {
 
 #root > div:nth-child(1) {
   background-image: url(https://uploads.codesandbox.io/uploads/user/b3e56831-8b98-4fee-b941-0e27f39883ab/9qWx-1.png);
-  box-shadow: 0px -10px 15px -5px rgba(0, 0, 0, 0.2), 0 12.5px 60px -10px rgb(89, 112, 206), 0 10px 10px -10px rgb(60, 75, 138);
+  box-shadow: 0px -10px 15px -5px rgba(0, 0, 0, 0.2), 0 12.5px 60px -10px rgb(89, 112, 206),
+    0 10px 10px -10px rgb(60, 75, 138);
 }
 
 #root > div:nth-child(2) {
   background-image: url(https://uploads.codesandbox.io/uploads/user/b3e56831-8b98-4fee-b941-0e27f39883ab/T0hA-3.png);
-  box-shadow: 0px -10px 15px -5px rgba(0, 0, 0, 0.2), 0 12.5px 60px -10px rgb(239, 214, 23), 0 10px 10px -10px rgb(239, 214, 23);
+  box-shadow: 0px -10px 15px -5px rgba(0, 0, 0, 0.2), 0 12.5px 60px -10px rgb(239, 214, 23),
+    0 10px 10px -10px rgb(239, 214, 23);
 }
 
 #root > div:nth-child(3) {
   background-image: url(https://uploads.codesandbox.io/uploads/user/b3e56831-8b98-4fee-b941-0e27f39883ab/QoXU-2.png);
-  box-shadow: 0px -10px 15px -5px rgba(0, 0, 0, 0.2), 0 12.5px 60px -10px rgb(187, 60, 64), 0 10px 10px -10px rgb(233, 75, 80);
+  box-shadow: 0px -10px 15px -5px rgba(0, 0, 0, 0.2), 0 12.5px 60px -10px rgb(187, 60, 64),
+    0 10px 10px -10px rgb(233, 75, 80);
 }
