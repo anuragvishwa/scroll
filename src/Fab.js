@@ -16,7 +16,7 @@ const button = {
 export const Fab = function Fab() {
   return (
     <a style={button} href="https://anuragvishwa.github.io/hbd/">
-      B'day
+      Card
     </a>
   )
 }
